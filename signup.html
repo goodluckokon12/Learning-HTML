@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup form</title>
+    <link rel="stylesheet" href="./signup.css" />
+  </head>
+  <body>
+    <header class="header">
+      <span class="logo"><h2>WPsite</h2></span>
+    </header>
+    <form action="" method="post" autocomplete="on">
+      <fieldset>
+        <legend><h2>PERSONAL DATA</h2></legend>
+        <div>
+          <label for="fname">First Name</label><br />
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="Goodluck"
+            required
+          />
+        </div>
+        
+        <div>
+            <label for="lname">Last Name</label><br />
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="Okon"
+              required
+            />
+        </div>
+        <div>
+            <label for="email">Email</label><br />
+            <input
+              type="email"
+              name="email"
+              id="
+              required
+              placeholder="me@mail.com"
+            />
+        </div>
+        <div>
+            <label for="tel">Tel</label><br>
+            <input type="tel" name="tel" id="tel" />
+        </div>
+        <div>
+            <label for="file">Upload Document</label><br>
+            <input type="file" name="file" id="file" />
+        </div>
+        <div>
+            <input type="checkbox" name="python" id="" />python
+            <input type="checkbox" name="javascript" id="" />javascript
+            <input type="checkbox" name="c++" id="" />c++
+            <input type="checkbox" name="java" id="" />java
+            <input type="checkbox" name="SQL" id="" />SQL
+        </div> 
+        <div>
+            <input type="radio" name="sex" id="" />male
+            <input type="radio" name="sex" id="" />female 
+        </div>
+        <div>
+            <label for="age">Age</label><br>
+            <select name="age" id="age">
+              <option value="16">16</option>
+              <option value="16">17</option>
+              <option value="16">18</option>
+              <option value="16">19</option>
+              <option value="16">20</option>
+              <option value="16">21</option>
+              <option value="16">22</option>
+              <option value="16">23</option>
+              <option value="16">24</option>
+              <option value="16">25</option>
+              <option value="16">26</option>
+              <option value="16">27</option>
+              <option value="16">28</option>
+              <option value="16">29</option>
+              <option value="16">30</option></select
+            >
+        </div>
+        <div>
+            <label for="password">Password</label><br>
+            <input
+              type="password"
+              name="password"
+              id=""
+              maxlength="6"
+              required
+            />
+        </div>
+        <div>
+            <input type="reset" value="Reset" />
+            <input type="submit" value="Submit" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

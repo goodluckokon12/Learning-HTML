@@ -1,0 +1,27 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header {
+    background: lightblue;
+    width: 100vw;
+    height: 5vh;
+}
+span h2 {
+    display: inline;
+    margin-left: 5px;
+    padding: 2px;
+    font-weight: bold;
+}
+form div, form {
+padding: 5px;
+margin: 0px;
+}
+h2 {
+    font-weight: bold;
+}
+form {
+    font-weight: bold;
+}
